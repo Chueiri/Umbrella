@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Umbrella</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+        <a href="index.html"><img src="/imagens/umbrella-logo.png" ></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+            <ul>
+                <li> <a href="">Início</a></li>
+                <li> <a href="">Sobre</a></li>
+                <li> <a href="">Parceiros</a></li>
+                <li> <a href="">Contato</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+    </nav>
+
+<div class="text-box">
+    <h1>Bem-Vindo à Umbrella</h1>
+    <p> Com o conceito de Digital Schools, a Umbrella é a primeira produtora digital onde os alunos terão acesso à um serviço ao vivo, <br>personalizado, ágil e ficaz em ambientes virtuais de aprendizado.</p>
+    <a href="" class="hero-btn">CONHEÇA NOSSOS PARCEIROS</a>
+</div>
+
+    </section>
+<!---- Sobre ---->
+<section class="sobre-icone">
+<img src="imagens/Umbrella-sobre.png">
+</section>
+<div class="sobre-texto">
+        <h1> Umbrella Digital</h1> 
+</div>
+    <div class="texto-sobre">
+        <img src="imagens/desenvolvimento-web.png" style="width: 35vw; min-width: 140px;">
+        <p> O objetivo da Umbrella é garantir um <br>espaço virtual efeciente, colaborativo <br>e confortável para nossos parceiros e <br>alunos. Garantimos em nossa <br>essência o máximo de agilidade e <br>confiança nos processos.
+        <br>Realizamos o Desenvolvimento Web,<br> Gestão de Tráfego, Estratégias de <br>Marketing e Gestão de Vendas dos <br>nossos parceiros.</p>
+    </div>
+       <section class="sobre-texto-II">
+    <h1>Digital Schools</h1>
+      <div class="texto-sobre-II">
+        <p> Digital Schools são escolas 100% online, com <br>aulas particulares e ao vivo. <br>
+            Na Umbrella, você pode aprender diversos temas:<br>
+            
+        <br>- Idiomas<br>
+            - Fitness Lifestyle<br>
+            - Vestibulares e Reforço Escolar<br>
+            - Instrumentos Musicais<br>
+            ...e muito mais!<br> 
+        </p>
+        <img src="imagens/brella.png" style="width: 40vw; min-width: 140px;">
+        </div>
+    </section>
+
+    <!--- Parceiros --->
+<section class="parceiros">
+<div class="umbrella-parceiros">
+    <img src="imagens/umbrella-parceiros.jpg">
+</div>
+
+<div class="row">
+    <div class="parceiros-square">
+        <imsrc="imagens/light-icon.jpeg">
+    </div>
+</div>
+<div class="container">
+    <div class="content">
+        <div class="card">
+            <div class="card-content">
+                <div class="image">
+                    <img src="imagens/light-icon.jpeg">
+                    <p> Light Schools</p>
+                    <a> Escola de Idiomas</a>
+                    <b href="" class="hero-btn-II"> COMECE HOJE!</b>
+                </div>
+
+                <div class="media-icons">
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-----JavaScript----->
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function showMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
