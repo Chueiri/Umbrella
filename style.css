@@ -7,7 +7,7 @@
 .header{
     min-height: 95vh;
     width: 100%;
-    background-color: rgb(176, 109, 232);
+    background-color: rgb(67, 68, 228);
 }
 
 nav{
@@ -146,12 +146,13 @@ nav .fa{
     .sobre-texto{
         display: flex;
         align-items: center;
+        margin-top: 30px;
     }
 
     .sobre-texto h1{
         padding: 16px;
         text-align: right;
-        margin-left: 65%;
+        margin-left: 71%;
         font-size: 30px;
     }
 
@@ -159,14 +160,18 @@ nav .fa{
         font-size: 18px;
         display: flex;
         align-items: center;
+        margin-top: -40px;
+        margin-left: 15px;
+        color: rgb(51, 51, 51);
+        font-weight: 400;
     }
     .texto-sobre p{
     text-align: right;
-    margin-left: 18%;
+    margin-left: 23%;
 }
     .texto-sobre img{
         text-align: left;
-        margin-left: 10%;
+        margin-left: 8%;
     }
 
     .sobre-texto-II{
@@ -177,9 +182,10 @@ nav .fa{
     .sobre-texto-II h1{
         text-align: left;
         padding: 1cm;
-        margin-left: 5.5cm;
+        margin-left: 3cm;
         margin-bottom: 1cm;
         font-size: 30px;
+        margin-top: -2cm;
 
     }
 
@@ -189,23 +195,37 @@ nav .fa{
         font-size: 18px;
         text-align: left;
         display: flex;
+        color: rgb(51, 51, 51);
+        font-weight: 400;
     }
-    
+    .texto-sobre-II p{
+
+        margin-top: -30px;
+
+    }
     .texto-sobre-II img{
         text-align: center;
         align-items: center;
-        margin-left: 3cm;
+        margin-left: 4.5cm;
+        margin-top: -4cm;
+        margin-bottom: 0.5cm;
     }
 
 .parceiros{
     min-height: 100vh;
     width: 100%;
-    background-color: rgb(176, 109, 232);
+    background-color: rgb(67, 68, 228);
+    margin-top: 1cm;
 }
 
 .umbrella-parceiros{
     margin-left: 14.5cm;
     padding: 32px;
+}
+
+.parceiros-contact{
+    display: flex;
+    align-items: center;
 }
 
 section .card .image{
@@ -219,6 +239,7 @@ section .card .image{
     padding-bottom: 0.2cm;
     margin-left: 14.5cm;
     border-radius: 5px;
+    margin-top: 0.5cm;
 }
 
 section .card .image img{
@@ -239,9 +260,11 @@ section .card .image p{
 }
 
 section .card .image a{
-    margin-left: 80px;
+    margin-left: 79px;
     align-items: center;
     padding-top: 0.5cm;
+    color: rgb(51, 51, 51);
+    font-weight: 300;
 }
 
 
@@ -253,7 +276,7 @@ section .card .image .hero-btn-II{
     border: 1px solid white;
     padding: 12px 34px;
     font-size: 13px;
-    background: rgb(176, 109, 232);
+    background:rgb(67, 68, 228);
     position: relative;
     cursor: pointer;
     align-items: center;
@@ -262,9 +285,306 @@ section .card .image .hero-btn-II{
     font-size: medium;
    }
 
-   section .card .image .hero-btn-II :hover{
+   section .card-II .image-II{
+    height: 320px;
+    width: 280px;
+    padding:3px;
+    background:  #fff;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 0.2cm;
+    margin-left: 5.5cm;
+    border-radius: 5px;
+    margin-top: -9.2cm;
+}
+
+section .card-II .image-II img{
+    height: 145x;
+    width: 152px;
+    object-fit: cover;
+    margin-left: 1.7cm;
+    align-items: center;
+    border-radius: 8px;
+}
+
+section .card-II .image-II p{
+    margin-left: 50px;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+
+section .card-II .image-II a{
+    margin-left: 72px;
+    align-items: center;
+    padding-top: 0.5cm;
+    color: rgb(51, 51, 51);
+    font-weight: 300;
+}
+
+
+
+section .card-II .image-II .hero-btn-III{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
     border: 1px solid white;
-    background: white;
-    transition: 1s;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: rgb(67, 68, 228);
+    position: relative;
+    cursor: pointer;
+    align-items: center;
+    margin-left: 1.2cm;
+    margin-top: 0.8cm;
+    font-size: medium;
+   }
+
+   section .card-III .image-III{
+    height: 320px;
+    width: 280px;
+    padding:3px;
+    background:  #fff;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 0.2cm;
+    margin-left: 23.45cm;
+    border-radius: 5px;
+    margin-top: -9.2cm;
+}
+
+section .card-III .image-III img{
+    height: 170x;
+    width: 180px;
+    object-fit: cover;
+    margin-left: 1.3cm;
+    align-items: center;
+    border-radius: 8px;
+    margin-top: 7px;
+    
+}
+
+section .card-III .image-III p{
+    margin-left: 2.5cm;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 8px;
+}
+
+section .card-III .image-III a{
+    margin-left: 50px;
+    align-items: center;
+    padding-top: 0.5cm;
+    color: rgb(51, 51, 51);
+    font-weight: 300;
+    font-size: 10;
+}
+
+
+
+section .card-III .image-III .hero-btn-IIII{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 34px;
+   font-size: 13px;
+    background: rgb(67, 68, 228);
+    position: relative;
+    cursor: pointer;
+    align-items: center;
+    margin-left: 1.2cm;
+    margin-top: 0.8cm;
+    font-size: medium;
+   }
+
+
+   .conheça-mais-btn{
+    display: inline-block;
+    text-decoration: none;
     color: black;
+    border: 1px solid white;
+    padding: 16px 34px;
+    padding-left: 8%;
+    padding-right: 8%;
+    font-size: 13px;
+    background: white;
+    position: relative;
+    cursor: pointer;
+    align-items: center;
+    margin-left: 14.2cm;
+    margin-top: 1.3cm;
+    font-size: medium;
+   }
+
+   .conheça-mais-btn:hover{
+    border: 1px solid white;
+    background: rgb(67, 68, 228);
+    transition: 1s;
+    color: white;
+
+}
+
+.equipe{
+    min-height: 100vh;
+    width: 100%;
+    background-color: white;
+    margin-top: 1cm;
+}
+
+.umbrella-equipe{
+    margin-left: 15cm;
+    padding: 32px;
+}
+
+section .card-equipe .image-equipe{
+    height: 280px;
+    width: 260px;
+    padding:3px;
+    color: #fff;
+    background: rgb(67, 68, 228);
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 0.2cm;
+    margin-left: 14.5cm;
+    border-radius: 5px;
+    margin-top: 0.5cm;
+}
+
+section .card-equipe .image-equipe img{
+    height: 145x;
+    width: 152px;
+    object-fit: cover;
+    margin-left: 1.5cm;
+    align-items: center;
+    border-radius: 8px;
+}
+
+section .card-equipe .image-equipe p{
+    margin-left: 115px;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 8px;
+    color: #fff;
+}
+
+section .card-equipe .image-equipe a{
+    margin-left: 80px;
+    align-items: center;
+    padding-top: 0.5cm;
+    color: white;
+    font-weight: 300;
+}
+
+section .card-equipe .image-equipe h5{
+    margin-left: 90px;
+    margin-top: 15px;
+    font-style: italic;
+}
+
+   section .card-equipe-II .image-equipe-II{
+    height: 280px;
+    width: 260px;
+    padding:3px;
+    background:  rgb(67, 68, 228);
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 0.2cm;
+    margin-left: 5.5cm;
+    border-radius: 5px;
+    margin-top: -8.2cm;
+    color: #fff;
+}
+
+section .card-equipe-II .image-equipe-II img{
+    height: 145x;
+    width: 152px;
+    object-fit: cover;
+    margin-left: 1.45cm;
+    align-items: center;
+    border-radius: 8px;
+}
+
+section .card-equipe-II .image-equipe-II p{
+    margin-left: 115px;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 8px;
+    color: #fff;
+}
+
+section .card-equipe-II .image-equipe-II a{
+    margin-left: 87px;
+    align-items: center;
+    padding-top: 0.5cm;
+    color: white;
+    font-weight: 300;
+}
+
+section .card-equipe-II .image-equipe-II h5{
+    margin-left: 85px;
+    margin-top: 15px;
+    font-style: italic;
+}
+
+   section .card-equipe-III .image-equipe-III{
+    height: 280px;
+    width: 260px;
+    padding:3px;
+    background:  rgb(67, 68, 228);
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 0.2cm;
+    margin-left: 23.45cm;
+    border-radius: 5px;
+    margin-top: -8.1cm;
+    color: #fff;
+}
+
+section .card-equipe-III .image-equipe-III img{
+    height: 145x;
+    width: 152px;
+    object-fit: cover;
+    margin-left: 1.5cm;
+    align-items: center;
+    border-radius: 8px;
+    margin-top:2px;
+    
+}
+
+section .card-equipe-III .image-equipe-III p{
+    margin-left: 65px;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 8px;
+    color: #fff;
+}
+
+section .card-equipe-III .image-equipe-III a{
+    margin-left: 72px;
+    align-items: center;
+    padding-top: 0.5cm;
+    color: white;
+    font-weight: 300;
+}
+
+section .card-equipe-III .image-equipe-III h5{
+    margin-left: 93px;
+    margin-top: 15px;
+    font-style: italic;
+}
+
+footer{
+    background: rgb(67, 68, 228);
+    padding: 5%;
 }
